@@ -34,46 +34,142 @@ main {
 
 main h1 {
   color: white;
-  font-size: 7rem;
+  font-size: 10vh;
   font-style: italic;
   margin-bottom: 2rem;
 }
 main h2 {
   color: white;
-  font-size: 4rem;
+  font-size: 4vh;
 }
 
-#introduction {
-  background-color: #9ebace;
-  height: 80vh;
-  padding: 5% 10% 15% 15%;
+@media only screen and (max-width: 768px) {
+  #introduction {
+    background-color: #9ebace;
+    padding: 10%;
+    display: block;
+    color: black;
+  }
+  #introduction p,
+  b {
+    font-size: 3vh;
+  }
+
+  #introduction li {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+
+  .intro-paragraphs {
+    text-align: left;
+  }
+
+  .intro-paragraphs p {
+    margin-bottom: 5vh;
+  }
+
+  .intro-paragraphs ul {
+    padding: 0.5vw;
+  }
+
+  .intro-paragraphs h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+  .extra-intro h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro ul {
+    padding: 1vw;
+  }
+
+  #projects {
+    height: 80vh;
+    background-color: #010102;
+  }
+
+  #projects h2 {
+    color: white;
+  }
+
+  .goals {
+    background-color: #9ebace;
+    height: 70vh;
+  }
+
+  #contacts {
+    height: 60vh;
+    background-color: #010102;
+    color: white;
+  }
 }
 
-.intro-paragraphs p {
-  font-size: 2.2rem;
-}
+@media only screen and (min-width: 769px) {
+  #introduction {
+    background-color: #9ebace;
+    padding: 5%;
+    display: flex;
+    color: black;
+  }
+  #introduction p,
+  b {
+    font-size: 3vh;
+  }
 
-#introduction li {
-  list-style-type: none;
-  font-size: 1.5rem;
-}
+  #introduction li {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
 
-#projects {
-  height: 80vh;
-  background-color: #010102;
-}
+  .intro-paragraphs {
+    width: 50vw;
+    text-align: left;
+    margin-right: 8vw;
+  }
 
-#projects h2 {
-  color: white;
-}
+  .intro-paragraphs p {
+    margin-bottom: 5vh;
+  }
 
-.goals {
-  background-color: #9ebace;
-  height: 70vh;
-}
+  .intro-paragraphs ul {
+    padding: 0.5vw;
+  }
 
-#contacts {
-  height: 60vh;
-  background-color: #010102;
-  color: white;
+  .intro-paragraphs h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro ul {
+    padding: 1vw;
+  }
+
+  #projects {
+    height: 80vh;
+    background-color: #010102;
+  }
+
+  #projects h2 {
+    color: white;
+  }
+
+  .goals {
+    background-color: #9ebace;
+    height: 70vh;
+  }
+
+  #contacts {
+    height: 60vh;
+    background-color: #010102;
+    color: white;
+  }
 }
