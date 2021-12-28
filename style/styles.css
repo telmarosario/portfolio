@@ -1,0 +1,64 @@
+/* Modify the backgorund color */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.navbar-custom {
+	background-color: #010102;
+    
+}
+
+.navbar-custom .navbar-nav .nav-link{
+    color: rgb(133, 132, 132);
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(248, 246, 246);
+}
+
+.det-nav{
+    margin-right: 50px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+main {
+    height: 85vh;
+    background-color: #010102;
+}
+
+main h1{
+    color: white;
+}
+main h2{
+    color: white;
+}
+
+#introduction {
+    background-color: #9EBACE;
+    height: 70vh;
+}
+
+#projects {
+    height: 80vh;
+    background-color: #010102;
+}
+
+#projects h2 {
+   color: white;
+}
+
+.goals {
+    background-color: #9EBACE;
+    height: 70vh;
+}
+
+#contacts {
+    height: 60vh;
+    background-color: #010102;
+    color: white;
+}
+
