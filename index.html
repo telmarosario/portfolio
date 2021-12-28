@@ -22,6 +22,14 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="icon" href="/public/images/favicon.png" />
   </head>
 
@@ -30,7 +38,7 @@
       <!--Nav Bar-->
 
       <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
               src="/public/images/nav-image.png"
@@ -39,27 +47,40 @@
               height="100"
             />
           </a>
-        </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link det-nav" href="#">about me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link det-nav" href="#">projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link det-nav" href="#">contact</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link det-nav" href="#introduction">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link det-nav" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link det-nav" href="#contacts">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </section>
 
     <main>
-      <h1>I'm Telma</h1>
-      <h2>full stack web developer</h2>
+      <h1>Hi!👋 I'm Telma!</h1>
+      <h2>
+        A programming geek with a passion for learning about all things tech
+      </h2>
     </main>
 
     <section>
@@ -67,17 +88,37 @@
     </section>
 
     <section id="introduction">
-      <h4>Introduction paragraph</h4>
+      <div class="intro-paragraphs">
+        <p>
+          I'm a full-stack web developer with a background in communication.
+          After a few years of discovering the media communication world, I knew
+          that I wanted a bigger challenge - the tech world!
+        </p>
+        <p>
+          Programming puts to the test my best qualities: I'm organized, focused
+          and eager to learn new things.
+        </p>
+        <p>When I'm not coding I am...</p>
+        <ul>
+          <li>Reading fiction books 📚</li>
+          <li>Listening to my favorite tracks 🎧</li>
+          <li>한국어 배우기</li>
+        </ul>
+      </div>
 
-      <p>when I'm not coding I am</p>
-
-      <!-- Will need a grid layout -->
-
-      <h2>languages I speak</h2>
+      <h2>My tech stack includes:</h2>
+      <ul>
+        <li>JavaScript ES6</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Bootstrap</li>
+        <li>And more to come</li>
+      </ul>
     </section>
 
     <section id="projects">
-      <h2>my projects</h2>
+      <h2>My projects</h2>
     </section>
 
     <section class="goals">
